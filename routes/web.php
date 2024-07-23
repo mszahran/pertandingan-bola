@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\Klasemen::class, 'index'])->name('home');
+Route::resource('/klub', App\Http\Controllers\Klub::class);
+Route::resource('/skor', App\Http\Controllers\Skor::class);
+Route::resource('/skor-multiple', App\Http\Controllers\SkorMultiple::class);
