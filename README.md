@@ -1,7 +1,5 @@
 # Panduan Penggunaan Proyek Laravel
 
-Tentu, berikut ini adalah contoh isi berkas `README.md` untuk menjelaskan cara menggunakan perintah `php artisan migrate --seed` pada proyek Laravel:
-
 ```markdown
 # Proyek Laravel
 
@@ -11,7 +9,7 @@ Proyek ini adalah sebuah aplikasi web yang dibangun menggunakan framework Larave
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/nama-username/proyek-laravel.git
+   git clone https://github.com/mszahran/pertandingan-bola.git
    ```
 
 2. **Install Dependencies**
@@ -55,7 +53,8 @@ Dalam contoh di atas, bagian yang relevan dengan perintah `php artisan migrate -
 
 Untuk menghubungkan proyek Laravel Anda dengan database, pastikan untuk mengatur file `.env` dengan konfigurasi berikut:
 
-.ENV
+
+```dotenv
 DB_CONNECTION=pgsql
 DB_HOST=localhost
 DB_PORT=5432
