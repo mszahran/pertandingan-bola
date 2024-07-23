@@ -65,4 +65,3 @@ Silakan ajukan *pull request* jika Anda ingin berkontribusi pada proyek ini.
 ## Lisensi
 
 Proyek ini dilisensikan di bawah lisensi [MIT License](https://opensource.org/licenses/MIT).
-```
