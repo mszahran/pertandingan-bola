@@ -1,7 +1,5 @@
-# Panduan Penggunaan Proyek Laravel
-
 ```markdown
-# Proyek Laravel
+# Panduan Penggunaan Proyek Laravel
 
 Proyek ini adalah sebuah aplikasi web yang dibangun menggunakan framework Laravel.
 
@@ -47,12 +45,9 @@ Akses aplikasi melalui browser dengan alamat [http://localhost:8000](http://loca
 - `routes/` : Definisi rute aplikasi.
 - `tests/` : Unit test dan test fitur.
 
-Dalam contoh di atas, bagian yang relevan dengan perintah `php artisan migrate --seed` adalah bagian "Jalankan Migrasi dan Seeder", di mana pengguna diberitahu untuk menjalankan perintah tersebut untuk membuat dan mengisi tabel-tabel database dengan data awal yang ditentukan. Pastikan untuk menyesuaikan dengan detail dan struktur proyek Laravel yang sesuai.
-
 ## Konfigurasi Koneksi Database
 
 Untuk menghubungkan proyek Laravel Anda dengan database, pastikan untuk mengatur file `.env` dengan konfigurasi berikut:
-
 
 ```dotenv
 DB_CONNECTION=pgsql
@@ -61,6 +56,7 @@ DB_PORT=5432
 DB_DATABASE=pertandingan_bola
 DB_USERNAME=postgres
 DB_PASSWORD=root
+```
 
 ## Kontribusi
 
@@ -69,3 +65,4 @@ Silakan ajukan *pull request* jika Anda ingin berkontribusi pada proyek ini.
 ## Lisensi
 
 Proyek ini dilisensikan di bawah lisensi [MIT License](https://opensource.org/licenses/MIT).
+```
