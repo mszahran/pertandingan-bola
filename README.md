@@ -1,4 +1,3 @@
-```markdown
 # Panduan Penggunaan Proyek Laravel
 
 Proyek ini adalah sebuah aplikasi web yang dibangun menggunakan framework Laravel.
